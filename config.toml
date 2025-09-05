@@ -1,0 +1,22 @@
+# The URL the site will be built for
+base_url = "https://consulting.joshafairhead.com"
+
+# The site title
+title = "Cosmic Ecology: Fragments of a Lost Teaching"
+
+# The site description
+description = "Exploring the intersection of technology, nature, and consciousness"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = false
+
+# Syntax highlighting configuration
+[markdown]
+highlight_code = true
+highlight_theme = "solarized-light"
+
+# Whether to build a search index of the content
+build_search_index = false
+
+[extra]
+# Put all your custom variables here
