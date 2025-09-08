@@ -1,7 +1,7 @@
 /* Font imports */
 @font-face {
     font-family: 'Lovely Home';
-    src: url('./fonts/LovelyHome-9aBZ.ttf') format('truetype');
+    src: url('../fonts/LovelyHome-9aBZ.ttf') format('truetype');
     font-display: swap;
 }
 
@@ -75,7 +75,7 @@ main {
 /* Hero section */
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
-                url('/butterflynebula.jpg');
+                url('/images/butterflynebula.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -317,22 +317,22 @@ article a:hover {
     text-decoration: underline;
 }
 
-/* Get Started page */
-.get-started-hero {
+/* Chapter page */
+.chapter-header {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
-                url('/cave_painting.gif');
+                url('/images/cave_painting.gif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color: white;
-    height: 40vh;
+    height: 20vh;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
 }
 
-.get-started-hero .hero-content {
+.chapter-header-content {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
@@ -340,27 +340,143 @@ article a:hover {
     position: relative;
 }
 
-.get-started-hero h1 {
+.chapter-header-content::before,
+.chapter-header .chapter-number,
+.chapter-header-content .chapter-number {
+    display: none !important;
+}
+
+.chapter-header h1 {
     font-family: 'Lovely Home', serif;
     font-size: 3.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0;
+    margin-top: 0;
     color: white;
     font-weight: 400;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
-.get-started-hero .hero-subtitle {
+.chapter-subtitle {
     font-size: 1.2rem;
     color: rgba(255, 255, 255, 0.9);
     font-weight: 300;
     line-height: 1.6;
 }
 
-.get-started-content {
+.chapters-list {
     background: #fafafa;
-    padding: 4rem 0;
-    min-height: 60vh;
+    padding: 2rem 0;
+}
+
+.toc-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.toc-item {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    padding: 1rem;
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.toc-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+}
+
+.toc-item .chapter-number {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Lovely Home', serif;
+    flex-shrink: 0;
+}
+
+.chapter-numeral {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #667eea;
+    margin-right: 1rem;
+    flex-shrink: 0;
+    align-self: flex-start;
+}
+
+.chapter-info {
+    flex: 1;
+}
+
+.chapter-info h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.chapter-info h3 a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.chapter-info h3 a:hover {
+    color: #667eea;
+}
+
+.chapter-info p {
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.chapter-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.reading-time {
+    color: #999;
+    font-style: italic;
+}
+
+.chapter-status {
+    padding: 0.3rem 0.8rem;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+.chapter-status:contains("Available") {
+    background: #e8f5e8;
+    color: #2d5a2d;
+}
+
+.toc-item:first-child .chapter-status {
+    background: #e8f5e8;
+    color: #2d5a2d;
+}
+
+.toc-item:not(:first-child) .chapter-status {
+    background: #f0f0f0;
+    color: #666;
 }
 
 /* Chapters section */
