@@ -1,3 +1,10 @@
+/* Font imports */
+@font-face {
+    font-family: 'Lovely Home';
+    src: url('./fonts/LovelyHome-9aBZ.ttf') format('truetype');
+    font-display: swap;
+}
+
 /* Reset and base styles */
 * {
     margin: 0;
@@ -94,12 +101,14 @@ main {
 }
 
 .hero h1 {
-    font-size: 3.5rem;
+    font-family: 'Lovely Home', serif;
+    font-size: 5.5rem;
     margin-bottom: 0;
     color: white;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 1.2;
     animation: fadeInUp 1s ease-out;
+    letter-spacing: 0.02em;
 }
 
 .hero-subtitle {
@@ -306,6 +315,144 @@ article a:hover {
 
 .read-more:hover {
     text-decoration: underline;
+}
+
+/* Get Started page */
+.get-started-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+                url('/cave_painting.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.get-started-hero .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+}
+
+.get-started-hero h1 {
+    font-family: 'Lovely Home', serif;
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+    color: white;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.get-started-hero .hero-subtitle {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.get-started-content {
+    background: #fafafa;
+    padding: 4rem 0;
+    min-height: 60vh;
+}
+
+/* Chapters section */
+.chapters-content {
+    background: #fafafa;
+    padding: 4rem 0;
+}
+
+.chapters-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.chapter-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    position: relative;
+}
+
+.chapter-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.chapter-number {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Lovely Home', serif;
+}
+
+.chapter-card h3 {
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.chapter-card p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    flex-grow: 1;
+}
+
+.chapter-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+}
+
+.reading-time {
+    color: #999;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.chapter-link {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: transform 0.2s ease;
+}
+
+.chapter-link:hover {
+    transform: translateY(-1px);
 }
 
 /* Episodes section */
