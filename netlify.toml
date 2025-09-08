@@ -1,9 +1,12 @@
 [build]
-  command = "zola build"
+  command = "zola build --base-url https://cosmicecology.netlify.app"
   publish = "public"
 
 [build.environment]
   ZOLA_VERSION = "0.18.0"
+
+[context.production.environment]
+  HUGO_VERSION = ""
 
 # Optional: Custom headers for better performance
 [[headers]]
