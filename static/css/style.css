@@ -365,8 +365,23 @@ article a:hover {
 }
 
 .chapters-list {
-    background: #fafafa;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+                url('/images/cave_painting.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     padding: 2rem 0;
+}
+
+.chapters-title {
+    font-family: 'Lovely Home', serif;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.02em;
 }
 
 .toc-grid {
