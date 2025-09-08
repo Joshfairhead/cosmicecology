@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="chapter-page">
+    <div class="container">
+        <nav class="chapter-nav">
+            <a href="/chapters/" class="back-link">← Table of Contents</a>
+        </nav>
+        
+        <article class="chapter-content">
+            {{ page.content | safe }}
+        </article>
+        
+        <nav class="chapter-pagination">
+            <a href="/chapters/" class="nav-link">← Back to Chapters</a>
+            <a href="#" class="nav-link">Next Chapter →</a>
+        </nav>
+    </div>
+</section>
+{% endblock content %}
