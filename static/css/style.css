@@ -101,7 +101,7 @@ main {
 }
 
 .hero h1 {
-    font-family: 'Lovely Home', serif;
+    font-family: 'Lovely Home', 'Dancing Script', cursive;
     font-size: 5.5rem;
     margin-bottom: 0;
     color: white;
@@ -347,7 +347,7 @@ article a:hover {
 }
 
 .chapter-header h1 {
-    font-family: 'Lovely Home', serif;
+    font-family: 'Lovely Home', 'Dancing Script', cursive;
     font-size: 3.5rem;
     margin-bottom: 0;
     margin-top: 0;
@@ -375,7 +375,7 @@ article a:hover {
 }
 
 .chapters-title {
-    font-family: 'Lovely Home', serif;
+    font-family: 'Lovely Home', 'Dancing Script', cursive;
     font-size: 3rem;
     color: white;
     text-align: center;
@@ -420,7 +420,7 @@ article a:hover {
     justify-content: center;
     font-size: 1.2rem;
     font-weight: 600;
-    font-family: 'Lovely Home', serif;
+    font-family: 'Lovely Home', 'Dancing Script', cursive;
     flex-shrink: 0;
 }
 
@@ -527,7 +527,7 @@ article a:hover {
 }
 
 .chapter-content h1 {
-    font-family: 'Lovely Home', serif;
+    font-family: 'Lovely Home', 'Dancing Script', cursive;
     font-size: 2.5rem;
     color: #333;
     margin-bottom: 1rem;
@@ -619,7 +619,7 @@ article a:hover {
     justify-content: center;
     font-size: 1.2rem;
     font-weight: 600;
-    font-family: 'Lovely Home', serif;
+    font-family: 'Lovely Home', 'Dancing Script', cursive;
 }
 
 .chapter-card h3 {
@@ -685,7 +685,7 @@ article a:hover {
 }
 
 .episodes h2 {
-    font-family: 'Lovely Home', serif;
+    font-family: 'Lovely Home', 'Dancing Script', cursive;
     color: #2d3748;
     margin-bottom: 1rem;
     text-align: center;
@@ -783,7 +783,7 @@ article a:hover {
     font-weight: 600;
     text-align: center;
     opacity: 0.95;
-    font-family: 'Lovely Home', serif;
+    font-family: 'Lovely Home', 'Dancing Script', cursive;
     letter-spacing: 0.02em;
     z-index: 1;
     position: relative;
