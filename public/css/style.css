@@ -1,8 +1,10 @@
 /* Font imports */
 @font-face {
     font-family: 'Lovely Home';
-    src: url('../fonts/LovelyHome-9aBZ.ttf') format('truetype');
+    src: url('/fonts/LovelyHome-9aBZ.ttf') format('truetype');
     font-display: swap;
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* Reset and base styles */
