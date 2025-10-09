@@ -3,20 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}{{ config.title }}{% endblock title %}</title>
-    <meta name="description" content="{% block description %}{{ config.description }}{% endblock description %}">
+    <title>Cosmic Ecology: Fragments of a Lost Teaching</title>
+    <meta name="description" content="Exploring the intersection of technology, nature, and consciousness">
     
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ get_url(path='css/style.css') }}">
+    <link rel="stylesheet" href="https://consulting.joshafairhead.com/css/style.css">
     
-    {% block extra_head %}{% endblock extra_head %}
+    
 </head>
 <body>
     
     <main>
-        {% block content %}{% endblock content %}
+        
+<section class="hero">
+    <div class="hero-content">
+        <h1>Cosmic Ecology</h1>
+        <p class="hero-subtitle">Fragments of a Lost Teaching</p>
+        <div class="hero-cta">
+            <a href="#episodes" class="cta-primary">Episodes</a>
+            <a href="/chapters/" class="cta-secondary">Get Started</a>
+        </div>
+    </div>
+</section>
+
+<section id="episodes" class="episodes">
+    <div class="container">
+        <h2>Episodes</h2>
+        <div class="episodes-grid">
+            <article class="episode-card">
+                <div class="episode-image">
+                    <div class="episode-placeholder">Episode 1</div>
+                </div>
+                <div class="episode-content">
+                    <h3>Criteria</h3>
+                    <p>Exploring the concrete significance of number as our foundational explanatory principles in order to establish criteria for a meaningful cosmology.</p>
+                    <div class="episode-meta">
+                        <span class="episode-number">Episode 1</span>
+                        <span class="episode-date">Coming Soon</span>
+                    </div>
+                </div>
+            </article>
+            
+            <article class="episode-card">
+                <div class="episode-image">
+                    <div class="episode-placeholder">Episode 2</div>
+                </div>
+                <div class="episode-content">
+                    <h3>Digital Consciousness</h3>
+                    <p>How technology mirrors natural patterns and what this reveals about consciousness itself.</p>
+                    <div class="episode-meta">
+                        <span class="episode-number">Episode 2</span>
+                        <span class="episode-date">Coming Soon</span>
+                    </div>
+                </div>
+            </article>
+            
+            <article class="episode-card">
+                <div class="episode-image">
+                    <div class="episode-placeholder">Episode 3</div>
+                </div>
+                <div class="episode-content">
+                    <h3>Ecological Networks</h3>
+                    <p>Understanding how natural ecosystems inform sustainable digital architecture.</p>
+                    <div class="episode-meta">
+                        <span class="episode-number">Episode 3</span>
+                        <span class="episode-date">Coming Soon</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
     </main>
     
     <footer>

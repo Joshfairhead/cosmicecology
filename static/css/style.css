@@ -1,10 +1,8 @@
 /* Font imports */
 @font-face {
     font-family: 'Lovely Home';
-    src: url('/fonts/LovelyHome-9aBZ.ttf') format('truetype');
+    src: url('../fonts/LovelyHome-9aBZ.ttf') format('truetype');
     font-display: swap;
-    font-weight: normal;
-    font-style: normal;
 }
 
 /* Reset and base styles */
@@ -103,7 +101,7 @@ main {
 }
 
 .hero h1 {
-    font-family: 'Lovely Home', 'Dancing Script', cursive;
+    font-family: 'Lovely Home', serif;
     font-size: 5.5rem;
     margin-bottom: 0;
     color: white;
@@ -349,7 +347,7 @@ article a:hover {
 }
 
 .chapter-header h1 {
-    font-family: 'Lovely Home', 'Dancing Script', cursive;
+    font-family: 'Lovely Home', serif;
     font-size: 3.5rem;
     margin-bottom: 0;
     margin-top: 0;
@@ -377,7 +375,7 @@ article a:hover {
 }
 
 .chapters-title {
-    font-family: 'Lovely Home', 'Dancing Script', cursive;
+    font-family: 'Lovely Home', serif;
     font-size: 3rem;
     color: white;
     text-align: center;
@@ -422,7 +420,7 @@ article a:hover {
     justify-content: center;
     font-size: 1.2rem;
     font-weight: 600;
-    font-family: 'Lovely Home', 'Dancing Script', cursive;
+    font-family: 'Lovely Home', serif;
     flex-shrink: 0;
 }
 
@@ -529,7 +527,7 @@ article a:hover {
 }
 
 .chapter-content h1 {
-    font-family: 'Lovely Home', 'Dancing Script', cursive;
+    font-family: 'Lovely Home', serif;
     font-size: 2.5rem;
     color: #333;
     margin-bottom: 1rem;
@@ -621,7 +619,7 @@ article a:hover {
     justify-content: center;
     font-size: 1.2rem;
     font-weight: 600;
-    font-family: 'Lovely Home', 'Dancing Script', cursive;
+    font-family: 'Lovely Home', serif;
 }
 
 .chapter-card h3 {
@@ -670,87 +668,40 @@ article a:hover {
 
 /* Episodes section */
 .episodes {
-    background: linear-gradient(180deg, #fafafa 0%, white 50%, #fafafa 100%);
-    padding: 5rem 0;
-    position: relative;
-    overflow: hidden;
-}
-
-.episodes::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(102, 126, 234, 0.3), transparent);
+    background: white;
+    padding: 4rem 0;
 }
 
 .episodes h2 {
-    font-family: 'Lovely Home', 'Dancing Script', cursive;
-    color: #2d3748;
-    margin-bottom: 1rem;
+    color: #333;
+    margin-bottom: 3rem;
     text-align: center;
-    font-size: 3.5rem;
-    font-weight: 400;
-    letter-spacing: 0.03em;
-    position: relative;
-    animation: fadeInUp 0.8s ease-out;
-}
-
-.episodes h2::after {
-    content: '';
-    display: block;
-    width: 80px;
-    height: 2px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    margin: 1.5rem auto 3rem;
-    border-radius: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
 }
 
 .episodes-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
-    max-width: 1100px;
+    gap: 2rem;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 0 2rem;
 }
 
 .episode-card {
     background: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 20px rgba(102, 126, 234, 0.08);
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: flex;
     flex-direction: column;
     height: 100%;
-    position: relative;
-    border: 1px solid rgba(102, 126, 234, 0.1);
-}
-
-.episode-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 3px;
-    background: linear-gradient(90deg, #667eea, #764ba2);
-    transform: scaleX(0);
-    transition: transform 0.4s ease;
-    transform-origin: left;
-}
-
-.episode-card:hover::before {
-    transform: scaleX(1);
 }
 
 .episode-card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 12px 40px rgba(102, 126, 234, 0.15);
-    border-color: rgba(102, 126, 234, 0.2);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
 }
 
 .episode-image {
@@ -763,36 +714,16 @@ article a:hover {
     overflow: hidden;
 }
 
-.episode-image::after {
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
-    animation: pulse 3s ease-in-out infinite;
-}
-
-@keyframes pulse {
-    0%, 100% { transform: scale(1); opacity: 0.5; }
-    50% { transform: scale(1.1); opacity: 0.8; }
-}
-
 .episode-placeholder {
     color: white;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 600;
     text-align: center;
-    opacity: 0.95;
-    font-family: 'Lovely Home', 'Dancing Script', cursive;
-    letter-spacing: 0.02em;
-    z-index: 1;
-    position: relative;
+    opacity: 0.9;
 }
 
 .episode-content {
-    padding: 2rem;
+    padding: 1.5rem;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -801,30 +732,23 @@ article a:hover {
 .episode-content h3 {
     color: #333;
     margin-bottom: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
-    position: relative;
-    transition: color 0.3s ease;
-}
-
-.episode-card:hover .episode-content h3 {
-    color: #667eea;
 }
 
 .episode-content p {
     color: #666;
-    line-height: 1.7;
+    line-height: 1.6;
     margin-bottom: 1.5rem;
     flex-grow: 1;
-    font-size: 1.05rem;
 }
 
 .episode-meta {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding-top: 1rem;
-    border-top: 1px solid #e2e8f0;
+    border-top: 1px solid #eee;
 }
 
 .episode-number {
@@ -837,13 +761,9 @@ article a:hover {
 }
 
 .episode-date {
-    background: rgba(102, 126, 234, 0.1);
-    color: #667eea;
-    font-size: 0.85rem;
-    font-weight: 500;
-    padding: 0.4rem 1rem;
-    border-radius: 6px;
-    letter-spacing: 0.02em;
+    color: #999;
+    font-size: 0.9rem;
+    font-style: italic;
 }
 
 /* Footer */
@@ -926,16 +846,8 @@ footer a:hover {
     }
     
     .episodes h2 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         margin-bottom: 2rem;
-    }
-    
-    .episode-card {
-        border-radius: 8px;
-    }
-    
-    .episode-image {
-        height: 180px;
     }
 }
 
