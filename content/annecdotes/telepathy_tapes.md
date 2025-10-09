@@ -1,0 +1,5 @@
+Talking to a friend I'd not spoken to in a while about the telepathy tapes he drops off mid conversation and I dont hear from him for a couple of days. A few days later I have a rare dream, and of a girl I'd not thought of in 20 odd years. To me she was a passing aquaintence, but she was also my buddies first girlfriend. Without checking my phone, I knew he had text me back, which I then confirmed. 
+
+Messaging him back I blindly asked "what would you say if I mentioned the name X" to which he was rather taken aback and responded in similar fasion "why". Without revealing my hypothesis I responded "you tell me", which he responded that it was kinda weird for me to bring up - "anyone else would be biased, but why me and why her now?". 
+
+I then told him that I'd had a dream about her which I attributed to his message, which opened up the discussion.
