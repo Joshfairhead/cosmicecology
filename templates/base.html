@@ -6,6 +6,9 @@
     <title>{% block title %}{{ config.title }}{% endblock title %}</title>
     <meta name="description" content="{% block description %}{{ config.description }}{% endblock description %}">
 
+    <!-- Preload custom font for better performance -->
+    <link rel="preload" href="{{ get_url(path='fonts/LovelyHome-9aBZ.ttf') }}" as="font" type="font/ttf" crossorigin>
+
     <link rel="icon" type="image/png" href="{{ get_url(path='favicons/galaxy-1.png') }}">
     <link rel="stylesheet" href="{{ get_url(path='css/style.css') }}">
 
