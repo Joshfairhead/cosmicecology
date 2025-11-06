@@ -1,34 +1,333 @@
 {% extends "base.html" %}
 
 {% block content %}
-<section class="chapters-list">
+<section class="transcluded-content">
     <div class="container">
-        <h1 class="chapters-title">The Dramatic Universe Vol. 1: Foundations of Natural Philosophy</h1>
-        <div class="toc-grid">
+        <h1 class="main-title">The Dramatic Universe Vol. 1: Foundations of Natural Philosophy</h1>
 
-            <article class="toc-item">
-                <span class="chapter-numeral">Book I.</span>
-                <div class="chapter-info">
-                    <h3><a href="/dramatic-universe/book-1/">Foundations</a></h3>
-                    <p><a href="/dramatic-universe/book-1/part-1/">Part 1: Metaphysics</a></p>
-                    <p><a href="/dramatic-universe/book-1/part-2/">Part 2: Epistemology</a></p>
-                    <p><a href="/dramatic-universe/book-1/part-3/">Part 3: Methodology</a></p>
-                    <p><a href="/dramatic-universe/book-1/part-4/">Part 4: Systematics</a></p>
-                </div>
-            </article>
+        {# Book 1: Foundations #}
+        <article class="book-section">
+            <h2 class="book-title">Book I: Foundations</h2>
 
-            <article class="toc-item">
-                <span class="chapter-numeral">Book II.</span>
-                <div class="chapter-info">
-                    <h3><a href="/dramatic-universe/book-2/">The Natural Sciences</a></h3>
-                    <p><a href="/dramatic-universe/book-2/part-5/">Part 5: The Dynamical World</a></p>
-                    <p><a href="/dramatic-universe/book-2/part-6/">Part 6: The World of Energy</a></p>
-                    <p><a href="/dramatic-universe/book-2/part-7/">Part 7: The World of Things</a></p>
-                    <p><a href="/dramatic-universe/book-2/part-8/">Part 8: Life</a></p>
-                </div>
-            </article>
+            {# Part 1: Metaphysics - Chapters 1-3 #}
+            <section class="part-section">
+                <h3 class="part-title">Part 1: Metaphysics</h3>
 
-        </div>
+                {% set ch1 = get_section(path="dramatic-universe/book-1/ch1/_index.md") %}
+                <section class="chapter-section">
+                    <h4 class="chapter-title">{{ ch1.title }}</h4>
+                    {% for page in ch1.pages %}
+                        <section class="section-content">
+                            <h5 class="section-title">{{ page.title }}</h5>
+                            <div class="section-body">
+                                {{ page.content | safe }}
+                            </div>
+                        </section>
+                    {% endfor %}
+                </section>
+
+                {% set ch2 = get_section(path="dramatic-universe/book-1/ch2/_index.md") %}
+                <section class="chapter-section">
+                    <h4 class="chapter-title">{{ ch2.title }}</h4>
+                    {% for page in ch2.pages %}
+                        <section class="section-content">
+                            <h5 class="section-title">{{ page.title }}</h5>
+                            <div class="section-body">
+                                {{ page.content | safe }}
+                            </div>
+                        </section>
+                    {% endfor %}
+                </section>
+
+                {% set ch3 = get_section(path="dramatic-universe/book-1/ch3/_index.md") %}
+                <section class="chapter-section">
+                    <h4 class="chapter-title">{{ ch3.title }}</h4>
+                    {% for page in ch3.pages %}
+                        <section class="section-content">
+                            <h5 class="section-title">{{ page.title }}</h5>
+                            <div class="section-body">
+                                {{ page.content | safe }}
+                            </div>
+                        </section>
+                    {% endfor %}
+                </section>
+            </section>
+
+            {# Part 2: Epistemology - Chapters 4-5 #}
+            <section class="part-section">
+                <h3 class="part-title">Part 2: Epistemology</h3>
+
+                {% set ch4 = get_section(path="dramatic-universe/book-1/ch4/_index.md") %}
+                <section class="chapter-section">
+                    <h4 class="chapter-title">{{ ch4.title }}</h4>
+                    {% for page in ch4.pages %}
+                        <section class="section-content">
+                            <h5 class="section-title">{{ page.title }}</h5>
+                            <div class="section-body">
+                                {{ page.content | safe }}
+                            </div>
+                        </section>
+                    {% endfor %}
+                </section>
+
+                {% set ch5 = get_section(path="dramatic-universe/book-1/ch5/_index.md") %}
+                <section class="chapter-section">
+                    <h4 class="chapter-title">{{ ch5.title }}</h4>
+                    {% for page in ch5.pages %}
+                        <section class="section-content">
+                            <h5 class="section-title">{{ page.title }}</h5>
+                            <div class="section-body">
+                                {{ page.content | safe }}
+                            </div>
+                        </section>
+                    {% endfor %}
+                </section>
+            </section>
+
+            {# Part 3: Methodology - Chapters 6-8 #}
+            <section class="part-section">
+                <h3 class="part-title">Part 3: Methodology</h3>
+
+                {% set ch6 = get_section(path="dramatic-universe/book-1/ch6/_index.md") %}
+                <section class="chapter-section">
+                    <h4 class="chapter-title">{{ ch6.title }}</h4>
+                    {% for page in ch6.pages %}
+                        <section class="section-content">
+                            <h5 class="section-title">{{ page.title }}</h5>
+                            <div class="section-body">
+                                {{ page.content | safe }}
+                            </div>
+                        </section>
+                    {% endfor %}
+                </section>
+
+                {% set ch7 = get_section(path="dramatic-universe/book-1/ch7/_index.md") %}
+                <section class="chapter-section">
+                    <h4 class="chapter-title">{{ ch7.title }}</h4>
+                    {% for page in ch7.pages %}
+                        <section class="section-content">
+                            <h5 class="section-title">{{ page.title }}</h5>
+                            <div class="section-body">
+                                {{ page.content | safe }}
+                            </div>
+                        </section>
+                    {% endfor %}
+                </section>
+
+                {% set ch8 = get_section(path="dramatic-universe/book-1/ch8/_index.md") %}
+                <section class="chapter-section">
+                    <h4 class="chapter-title">{{ ch8.title }}</h4>
+                    {% for page in ch8.pages %}
+                        <section class="section-content">
+                            <h5 class="section-title">{{ page.title }}</h5>
+                            <div class="section-body">
+                                {{ page.content | safe }}
+                            </div>
+                        </section>
+                    {% endfor %}
+                </section>
+            </section>
+
+            {# Part 4: Systematics - Chapters 9-12 #}
+            <section class="part-section">
+                <h3 class="part-title">Part 4: Systematics</h3>
+
+                {% set ch9 = get_section(path="dramatic-universe/book-1/ch9/_index.md") %}
+                <section class="chapter-section">
+                    <h4 class="chapter-title">{{ ch9.title }}</h4>
+                    {% for page in ch9.pages %}
+                        <section class="section-content">
+                            <h5 class="section-title">{{ page.title }}</h5>
+                            <div class="section-body">
+                                {{ page.content | safe }}
+                            </div>
+                        </section>
+                    {% endfor %}
+                </section>
+
+                {% set ch10 = get_section(path="dramatic-universe/book-1/ch10/_index.md") %}
+                <section class="chapter-section">
+                    <h4 class="chapter-title">{{ ch10.title }}</h4>
+                    {% for page in ch10.pages %}
+                        <section class="section-content">
+                            <h5 class="section-title">{{ page.title }}</h5>
+                            <div class="section-body">
+                                {{ page.content | safe }}
+                            </div>
+                        </section>
+                    {% endfor %}
+                </section>
+
+                {% set ch11 = get_section(path="dramatic-universe/book-1/ch11/_index.md") %}
+                <section class="chapter-section">
+                    <h4 class="chapter-title">{{ ch11.title }}</h4>
+                    {% for page in ch11.pages %}
+                        <section class="section-content">
+                            <h5 class="section-title">{{ page.title }}</h5>
+                            <div class="section-body">
+                                {{ page.content | safe }}
+                            </div>
+                        </section>
+                    {% endfor %}
+                </section>
+
+                {% set ch12 = get_section(path="dramatic-universe/book-1/ch12/_index.md") %}
+                <section class="chapter-section">
+                    <h4 class="chapter-title">{{ ch12.title }}</h4>
+                    {% for page in ch12.pages %}
+                        <section class="section-content">
+                            <h5 class="section-title">{{ page.title }}</h5>
+                            <div class="section-body">
+                                {{ page.content | safe }}
+                            </div>
+                        </section>
+                    {% endfor %}
+                </section>
+            </section>
+        </article>
+
+        {# Book 2: The Natural Sciences #}
+        <article class="book-section">
+            <h2 class="book-title">Book II: The Natural Sciences</h2>
+
+            {# Part 5: The Dynamical World - Chapters 13-14 #}
+            <section class="part-section">
+                <h3 class="part-title">Part 5: The Dynamical World</h3>
+
+                {% set ch13 = get_section(path="dramatic-universe/book-2/ch13/_index.md") %}
+                <section class="chapter-section">
+                    <h4 class="chapter-title">{{ ch13.title }}</h4>
+                    {% for page in ch13.pages %}
+                        <section class="section-content">
+                            <h5 class="section-title">{{ page.title }}</h5>
+                            <div class="section-body">
+                                {{ page.content | safe }}
+                            </div>
+                        </section>
+                    {% endfor %}
+                </section>
+
+                {% set ch14 = get_section(path="dramatic-universe/book-2/ch14/_index.md") %}
+                <section class="chapter-section">
+                    <h4 class="chapter-title">{{ ch14.title }}</h4>
+                    {% for page in ch14.pages %}
+                        <section class="section-content">
+                            <h5 class="section-title">{{ page.title }}</h5>
+                            <div class="section-body">
+                                {{ page.content | safe }}
+                            </div>
+                        </section>
+                    {% endfor %}
+                </section>
+            </section>
+
+            {# Part 6: The World of Energy - Chapters 15-16 #}
+            <section class="part-section">
+                <h3 class="part-title">Part 6: The World of Energy</h3>
+
+                {% set ch15 = get_section(path="dramatic-universe/book-2/ch15/_index.md") %}
+                <section class="chapter-section">
+                    <h4 class="chapter-title">{{ ch15.title }}</h4>
+                    {% for page in ch15.pages %}
+                        <section class="section-content">
+                            <h5 class="section-title">{{ page.title }}</h5>
+                            <div class="section-body">
+                                {{ page.content | safe }}
+                            </div>
+                        </section>
+                    {% endfor %}
+                </section>
+
+                {% set ch16 = get_section(path="dramatic-universe/book-2/ch16/_index.md") %}
+                <section class="chapter-section">
+                    <h4 class="chapter-title">{{ ch16.title }}</h4>
+                    {% for page in ch16.pages %}
+                        <section class="section-content">
+                            <h5 class="section-title">{{ page.title }}</h5>
+                            <div class="section-body">
+                                {{ page.content | safe }}
+                            </div>
+                        </section>
+                    {% endfor %}
+                </section>
+            </section>
+
+            {# Part 7: The World of Things - Chapters 17-18 #}
+            <section class="part-section">
+                <h3 class="part-title">Part 7: The World of Things</h3>
+
+                {% set ch17 = get_section(path="dramatic-universe/book-2/ch17/_index.md") %}
+                <section class="chapter-section">
+                    <h4 class="chapter-title">{{ ch17.title }}</h4>
+                    {% for page in ch17.pages %}
+                        <section class="section-content">
+                            <h5 class="section-title">{{ page.title }}</h5>
+                            <div class="section-body">
+                                {{ page.content | safe }}
+                            </div>
+                        </section>
+                    {% endfor %}
+                </section>
+
+                {% set ch18 = get_section(path="dramatic-universe/book-2/ch18/_index.md") %}
+                <section class="chapter-section">
+                    <h4 class="chapter-title">{{ ch18.title }}</h4>
+                    {% for page in ch18.pages %}
+                        <section class="section-content">
+                            <h5 class="section-title">{{ page.title }}</h5>
+                            <div class="section-body">
+                                {{ page.content | safe }}
+                            </div>
+                        </section>
+                    {% endfor %}
+                </section>
+            </section>
+
+            {# Part 8: Life - Chapters 19-21 #}
+            <section class="part-section">
+                <h3 class="part-title">Part 8: Life</h3>
+
+                {% set ch19 = get_section(path="dramatic-universe/book-2/ch19/_index.md") %}
+                <section class="chapter-section">
+                    <h4 class="chapter-title">{{ ch19.title }}</h4>
+                    {% for page in ch19.pages %}
+                        <section class="section-content">
+                            <h5 class="section-title">{{ page.title }}</h5>
+                            <div class="section-body">
+                                {{ page.content | safe }}
+                            </div>
+                        </section>
+                    {% endfor %}
+                </section>
+
+                {% set ch20 = get_section(path="dramatic-universe/book-2/ch20/_index.md") %}
+                <section class="chapter-section">
+                    <h4 class="chapter-title">{{ ch20.title }}</h4>
+                    {% for page in ch20.pages %}
+                        <section class="section-content">
+                            <h5 class="section-title">{{ page.title }}</h5>
+                            <div class="section-body">
+                                {{ page.content | safe }}
+                            </div>
+                        </section>
+                    {% endfor %}
+                </section>
+
+                {% set ch21 = get_section(path="dramatic-universe/book-2/ch21/_index.md") %}
+                <section class="chapter-section">
+                    <h4 class="chapter-title">{{ ch21.title }}</h4>
+                    {% for page in ch21.pages %}
+                        <section class="section-content">
+                            <h5 class="section-title">{{ page.title }}</h5>
+                            <div class="section-body">
+                                {{ page.content | safe }}
+                            </div>
+                        </section>
+                    {% endfor %}
+                </section>
+            </section>
+        </article>
+
     </div>
 </section>
 {% endblock content %}

@@ -859,3 +859,125 @@ footer {
         text-align: center;
     }
 }
+
+/* Transcluded Content Styles */
+.transcluded-content {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                url('/images/butterflynebula.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 3rem 0;
+    min-height: 100vh;
+}
+
+.transcluded-content .container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.transcluded-content .main-title {
+    font-family: 'Lovely Home', serif;
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 3px solid #667eea;
+}
+
+/* Book Section */
+.book-section {
+    margin-bottom: 4rem;
+}
+
+.book-title {
+    font-family: 'Lovely Home', serif;
+    font-size: 2.2rem;
+    color: #667eea;
+    margin-bottom: 2.5rem;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+    border-left: 5px solid #667eea;
+    border-radius: 8px;
+}
+
+/* Part Section */
+.part-section {
+    margin-bottom: 3rem;
+    padding-left: 1.5rem;
+}
+
+.part-title {
+    font-size: 1.8rem;
+    color: #764ba2;
+    margin-bottom: 2rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #764ba2;
+}
+
+/* Chapter Section */
+.chapter-section {
+    margin-bottom: 2.5rem;
+    padding-left: 1.5rem;
+}
+
+.chapter-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.chapter-content {
+    margin-bottom: 1.5rem;
+    color: #555;
+    line-height: 1.8;
+}
+
+/* Section Content */
+.section-content {
+    margin-bottom: 2rem;
+    padding-left: 1.5rem;
+    padding: 1.5rem;
+    background: #fafafa;
+    border-radius: 8px;
+    border-left: 3px solid #e0e0e0;
+}
+
+.section-title {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.section-body {
+    color: #444;
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+.section-body p {
+    margin-bottom: 1rem;
+}
+
+.section-body p:last-child {
+    margin-bottom: 0;
+}
+
+/* Print Styles */
+@media print {
+    .transcluded-content {
+        background: white;
+    }
+
+    .book-section {
+        page-break-before: always;
+    }
+
+    .section-content {
+        page-break-inside: avoid;
+    }
+}
