@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}{{ config.title }}{% endblock title %}</title>
     <meta name="description" content="{% block description %}{{ config.description }}{% endblock description %}">
-    
+
+    <link rel="icon" type="image/png" href="{{ get_url(path='favicons/galaxy-1.png') }}">
     <link rel="stylesheet" href="{{ get_url(path='css/style.css') }}">
-    
+
     {% block extra_head %}{% endblock extra_head %}
 </head>
 <body>
@@ -15,11 +16,5 @@
     <main>
         {% block content %}{% endblock content %}
     </main>
-    
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Cosmic Ecology. Built with <a href="https://www.getzola.org/">Zola</a>.</p>
-        </div>
-    </footer>
 </body>
 </html>
