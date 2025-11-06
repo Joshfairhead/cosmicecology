@@ -3,4 +3,4 @@ title = "3.6.4 The Place of Values in Natural Philosophy"
 template = "section.html"
 +++
 
-Content to be added.
+Natural science deals with facts—seeks to eliminate distinctions of consciousness—the method of statistical reduction—value judgments unavoidable but must be recognized and allowed for.
