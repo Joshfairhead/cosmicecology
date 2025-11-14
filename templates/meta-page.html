@@ -3,9 +3,11 @@
 {% block content %}
 <section class="transcluded-content">
     <div class="container">
-        <h1 class="main-title">{{ section.title }}</h1>
+        <h1 class="main-title">{{ page.title }}</h1>
         <article class="book-section">
-            {{ section.content | safe }}
+            <div class="content">
+                {{ page.content | safe }}
+            </div>
         </article>
     </div>
 </section>
