@@ -1134,6 +1134,30 @@ footer {
   align-items: center;
 }
 
+/* Eight Cosmoses Styling */
+.eight-cosmoses-content {
+  background: #FFEB3B;
+  padding: 2rem;
+  border-radius: 20px;
+  border: 3px solid #000;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Five Strivings Styling */
+.five-strivings-content {
+  background: #CE93D8;
+  padding: 2rem;
+  border-radius: 20px;
+  border: 3px solid #000;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Print Styles */
 @media print {
     .transcluded-content {
