@@ -5,10 +5,10 @@ template = "meta-page.html"
 
 <div class="eight-cosmoses-content">
 <svg viewBox="0 0 700 900" xmlns="http://www.w3.org/2000/svg" style="max-width: 700px; width: 100%;">
-<rect x="175" y="20" width="350" height="140" rx="25" fill="#FFEB3B" stroke="#000" stroke-width="3"/>
-<text x="350" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold">THE EIGHT</text>
-<text x="350" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold">RECIPROCAL</text>
-<text x="350" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold">COSMOSES</text>
+<rect x="175" y="20" width="350" height="100" rx="20" fill="#FFEB3B" stroke="#000" stroke-width="3"/>
+<text x="350" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold">THE EIGHT</text>
+<text x="350" y="77" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold">RECIPROCAL</text>
+<text x="350" y="102" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold">COSMOSES</text>
 <text x="80" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold">ENERGY LEVEL</text>
 <text x="300" y="200" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="bold">COSMIC QUALITY</text>
 <text x="450" y="200" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="bold">COSMOS</text>
