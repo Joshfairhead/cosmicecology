@@ -3,6 +3,8 @@ title = "The Five Tasks of Stewardship"
 template = "meta-page.html"
 +++
 
+<div style="background-color: white; padding: 2rem; border-radius: 8px; margin-bottom: 2rem;">
+
 <div class="five-strivings-content">
 <svg viewBox="0 0 1000 840" xmlns="http://www.w3.org/2000/svg" style="max-width: 1200px; width: 100%;">
 <!-- Title Box -->
@@ -36,4 +38,14 @@ template = "meta-page.html"
 <text x="715" y="645" text-anchor="start" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Taking care of our physical living body</text>
 <text x="715" y="660" text-anchor="start" font-family="Arial, sans-serif" font-size="12" font-weight="bold">and wellbeing environment</text>
 </svg>
+</div>
+
+</div>
+
+<div style="background-color: white; padding: 2rem; border-radius: 8px;">
+
+### Commentary
+
+[Commentary to be added]
+
 </div>

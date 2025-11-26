@@ -3,6 +3,8 @@ title = "The Eight Reciprocal Cosmoses"
 template = "meta-page.html"
 +++
 
+<div style="background-color: white; padding: 2rem; border-radius: 8px; margin-bottom: 2rem;">
+
 <div class="eight-cosmoses-content">
 <svg viewBox="0 0 700 900" xmlns="http://www.w3.org/2000/svg" style="max-width: 700px; width: 100%;">
 <rect x="175" y="20" width="350" height="100" rx="20" fill="#FFEB3B" stroke="#000" stroke-width="3"/>
@@ -121,4 +123,18 @@ template = "meta-page.html"
 <text x="30" y="795" font-family="Arial, sans-serif" font-size="13">E12 Zero Point Energy</text>
 <circle cx="190" cy="790" r="5" fill="#FF8C00"/>
 </svg>
+</div>
+
+</div>
+
+<div style="background-color: white; padding: 2rem; border-radius: 8px;">
+
+### Commentary
+
+<div style="display: flex; justify-content: center; margin: 1rem 0;">
+<img src="/images/eight-cosmoses-geometry.jpg" alt="Eight Cosmoses Geometric Representation" style="width: 70%; height: auto; border: 3px solid black;" />
+</div>
+
+[Commentary to be added]
+
 </div>
