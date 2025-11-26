@@ -3,6 +3,8 @@ title = "The Biosphere Recursion"
 template = "meta-page.html"
 +++
 
+<div style="background-color: white; padding: 2rem; border-radius: 8px; margin-bottom: 2rem;">
+
 <div class="biosphere-content">
 <svg viewBox="0 0 680 640" xmlns="http://www.w3.org/2000/svg" style="max-width: 680px; width: 100%;">
 <defs>
@@ -43,4 +45,14 @@ template = "meta-page.html"
 <text x="123.494" y="330.061" text-anchor="end" font-family="Arial, sans-serif" font-size="12">EVOLVING STEM</text>
 <text x="202.159" y="193.81" text-anchor="end" font-family="Arial, sans-serif" font-size="12">DOMINANT LIFE-FORM</text>
 </svg>
+</div>
+
+</div>
+
+<div style="background-color: white; padding: 2rem; border-radius: 8px;">
+
+### Commentary
+
+[Commentary to be added]
+
 </div>
