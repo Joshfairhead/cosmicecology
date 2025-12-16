@@ -3,7 +3,7 @@ title = "The Eight Reciprocal Cosmoses"
 template = "meta-page.html"
 +++
 
-<div style="background-color: white; padding: 2rem; border-radius: 8px; margin-bottom: 2rem;">
+<div style="background-color: white; padding: 2rem; border-radius: 15px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 2rem;">
 
 <div class="eight-cosmoses-content">
 <svg viewBox="0 0 700 900" xmlns="http://www.w3.org/2000/svg" style="max-width: 700px; width: 100%;">
@@ -127,7 +127,7 @@ template = "meta-page.html"
 
 </div>
 
-<div style="background-color: white; padding: 2rem; border-radius: 8px;">
+<div style="background-color: white; padding: 2rem; border-radius: 15px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 
 ### Commentary
 
