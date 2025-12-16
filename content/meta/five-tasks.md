@@ -3,7 +3,7 @@ title = "The Five Tasks of Stewardship"
 template = "meta-page.html"
 +++
 
-<div style="background-color: white; padding: 2rem; border-radius: 8px; margin-bottom: 2rem;">
+<div style="background-color: white; padding: 2rem; border-radius: 15px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 2rem;">
 
 <div class="five-strivings-content">
 <svg viewBox="0 0 1000 840" xmlns="http://www.w3.org/2000/svg" style="max-width: 1200px; width: 100%;">
@@ -42,10 +42,10 @@ template = "meta-page.html"
 
 </div>
 
-<div style="background-color: white; padding: 2rem; border-radius: 8px;">
+<div style="background-color: white; padding: 2rem; border-radius: 15px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 
 ### Commentary
 
-[Commentary to be added]
+What does it mean to do inner work? We so easily take the meaning for granted - yet what exactly does it entail? Stretching and yoga? Deep tissue massage? Contemplation and reflection? Psychotherapy and shadow work? Meditation and prayer? Something else? And how is one to do this work?
 
 </div>

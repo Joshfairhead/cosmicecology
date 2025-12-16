@@ -3,13 +3,13 @@ title = "The Spiritual Disjunction"
 template = "meta-page.html"
 +++
 
-<div style="background-color: white; padding: 2rem; border-radius: 8px; margin-bottom: 2rem;">
+<div style="background-color: white; padding: 2rem; border-radius: 15px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 2rem; overflow: hidden;">
 
 ![The Spiritual Disjunction Diagram](/images/spiritual-disjunction.svg)
 
 </div>
 
-<div style="background-color: white; padding: 2rem; border-radius: 8px;">
+<div style="background-color: white; padding: 2rem; border-radius: 15px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 
 ### Commentary
 
