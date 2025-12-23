@@ -1,6 +1,7 @@
 +++
 title = "Anecdotes"
 description = "Personal stories and observations relating to Cosmic Ecology concepts"
+template = "page.html"
 +++
 
 ## Anecdotes
