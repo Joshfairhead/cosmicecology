@@ -4,6 +4,24 @@ template = "start.html"
 +++
 
 <div style="background-color: white; padding: 2rem; border-radius: 15px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 2rem; position: relative;">
+  <span style="position: absolute; top: 1rem; left: 1rem; font-size: 1.3rem; font-weight: 600; color: #667eea;">I.</span>
+  <h2 style="font-family: 'Lovely Home', serif; font-size: 2.5rem; text-align: center; margin-bottom: 1rem; color: #333;">Cosmic Ecology</h2>
+  <p style="text-align: center; font-size: 1.1rem; color: #555; margin-bottom: 1.5rem;">Tony Hodgson's original Cosmic Ecology site</p>
+  <div style="text-align: center;">
+    <a href="http://www.cosmicecology.org/" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 0.8rem 2rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-decoration: none; border-radius: 10px; font-size: 1.1rem; font-weight: 600; transition: transform 0.2s, box-shadow 0.2s; box-shadow: 0 2px 10px rgba(102, 126, 234, 0.3);">Visit cosmicecology.org &rarr;</a>
+  </div>
+</div>
+
+<div style="background-color: white; padding: 2rem; border-radius: 15px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 2rem; position: relative;">
+  <span style="position: absolute; top: 1rem; left: 1rem; font-size: 1.3rem; font-weight: 600; color: #667eea;">II.</span>
+  <h2 style="font-family: 'Lovely Home', serif; font-size: 2.5rem; text-align: center; margin-bottom: 1rem; color: #333;">The Cosmic Ecology Programme</h2>
+  <p style="text-align: center; font-size: 1.1rem; color: #555; margin-bottom: 1.5rem;">H3Uni course on the Cosmic Ecology framework</p>
+  <div style="text-align: center;">
+    <a href="https://www.h3uni.org/events-and-activities/courses/the-cosmic-ecology-programme" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 0.8rem 2rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-decoration: none; border-radius: 10px; font-size: 1.1rem; font-weight: 600; transition: transform 0.2s, box-shadow 0.2s; box-shadow: 0 2px 10px rgba(102, 126, 234, 0.3);">Visit H3Uni Course &rarr;</a>
+  </div>
+</div>
+
+<div style="background-color: white; padding: 2rem; border-radius: 15px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 2rem; position: relative;">
   <span style="position: absolute; top: 1rem; left: 1rem; font-size: 1.3rem; font-weight: 600; color: #667eea;">IV.</span>
   <h2 style="font-family: 'Lovely Home', serif; font-size: 2.5rem; text-align: center; margin-bottom: 2rem; color: #333;">The System of Interest</h2>
   <div class="system-of-interest">
