@@ -48,7 +48,7 @@ weight = 5
 
 ### Commentary
 
-**Fig.35.8 The Fourth Pentad—Germinal Essence**
+**13.35.10 The Fourth Pentad—Germinal Essence**
 
 The word 'germ' may be taken to mean 'capable of spontaneous development'. Many qualifications would be needed to make such a definition precise, but it may serve to convey the essential property of all forms of life that are not rooted in the soil. We commonly refer to micro-organisms, and sometimes also to insect larvae, as germs. The germ of the grain is the independently developing part of the plant that possesses the essence-pattern that we are seeking to understand until it forms its roots and becomes attached to the soil. The smallest primary units of tissue that are capable of independent reactions in a living organism also fall within the class of germinal essences.
 
